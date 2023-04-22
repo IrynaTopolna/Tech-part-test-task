@@ -16,4 +16,14 @@ code {
     monospace;
 }
 
+li {
+    list-style: none;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+
 `;
