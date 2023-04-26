@@ -11,13 +11,13 @@ To create app with gallery of interactive tweet cards.
 ## Requirements:
 
 - Semantic, valid and fixed in px design according to the layout;
-- Once clicked on 'Follow' button text changed to 'Following' with requiring
-  design. The number of followers increases by one;
+- Once clicked on 'Follow' button text has to change to 'Following' and to have
+  requiring design. The number of followers increases by one;
 - Result must be fixed even after page reloading;
-- On repeated click text and style of the button returnes to default, the number
+- On repeated click text and style of the button returns to default, the number
   of followers decreases by one;
 - If number of followers more than 999, in UI thousands has to be separated by
-  ',';
+  ','
 - Personal backend has to be created with [mockapi.io](https://mockapi.io/);
 - Pagination has to be done with 'Load more' button implementation;
 
