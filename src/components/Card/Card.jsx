@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 import { setNewUserData } from 'services/users-api';
 import {
@@ -16,7 +17,6 @@ import {
 } from './Card.styled';
 import logo from './logo.png';
 import bg from './picture.png';
-import PropTypes from 'prop-types';
 
 const savedIds = JSON.parse(localStorage.getItem('status')) || [];
 
