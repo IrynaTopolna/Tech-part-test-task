@@ -1,5 +1,5 @@
-import { createGlobalStyle } from "styled-components";
-import "modern-normalize";
+import { createGlobalStyle } from 'styled-components';
+import 'modern-normalize';
 
 export const GlobalStyles = createGlobalStyle`
 body {
@@ -26,4 +26,9 @@ color: black;
 }
 
 
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
 `;

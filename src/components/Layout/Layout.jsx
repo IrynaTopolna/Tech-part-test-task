@@ -1,8 +1,8 @@
-import { Suspense } from "react";
-import { LayoutContainer, List, StyledNavLink } from "./Layout.styled";
+import { Suspense } from 'react';
+import { LayoutContainer, List, StyledNavLink } from './Layout.styled';
 // import { NavLink } from "react-router-dom";
 
-const Layout = ({ children }) => {
+export default function Layout({ children }) {
   return (
     <LayoutContainer>
       <header>
@@ -20,6 +20,4 @@ const Layout = ({ children }) => {
       </main>
     </LayoutContainer>
   );
-};
-
-export default Layout;
+}
